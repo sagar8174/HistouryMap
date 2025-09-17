@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docu</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+      <header>
+         <h1>HistouryMap</h1>
+              <nav>
+                <a href="#home"> HOME </a>
+                <a href="#plan"> Tourist Place </a>
+                <a href="#planner"> Trip Planner</a>
+                <a href="#eco"> Eco Score</a>
+                <a href="#rote"> Route View </a>
+                <a href="#bucket"> Bucket List</a>
+              </nav>
+      </header>
+
+      <div class="container"> 
+          
+        <!-- website home secion -->
+         <div id="home" class="box">
+            <h2> Search City </h2>
+            <input type="text" placeholder="enter your city name(e.g., delhi)" >
+            <button> search </button>
+         </div>
+
+         <!-- website tourist place section -->
+         <div id="place" class="box">
+            <h2> famous places </h2>
+            <p> example: taj mahal,agra </p>
+            <video src="demo_video.mp4" autoplay loop controls> sample video
+                
+            </video>  
+         </div>
+
+         <!-- website trip planner section  -->
+         <div id="planner" class="box"> 
+            <h2> trip planner </h2>
+            <label> no. of days </label>
+            <input type="number" placeholder="enter per day cost ">
+            <button> calculate your trip cost </button>
+         </div> 
+
+         <!-- website eco score section -->
+          <div id="eco" class="box"> 
+             <h2> eco-friendly traveling score </h2>
+             <label> select vehicle :</label>
+             <select>
+                    <option> bicycle </option>
+                    <option> walking </option>
+                    <option> metro </option>
+                    <option> motorcycle </option>
+                  <option> car(petrol/Diesel) </option>
+                  <option> bus </option>
+                  <option> electric vehicle </option>
+                  <option> train </option>
+                  <button> get score </button>
+             </select>
+
+        <!-- website route view section  -->
+         <div id="route" class="box">
+         <h2> route view </h2>
+         <p>  sample route : <b>agra cantt railway station </b>  to  <b>taj mahal</b> </p> 
+         <!-- <iframe 
+         src="https://maps.app.goo.gl/FBrKkRdHw6HQr57P9" allow="fullscreen" loading="lazy" >
+         </iframe> -->
+           <iframe 
+          src="https://en.wikipedia.org/wiki/Taj_Mahal#/map/0" 
+          width="600" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen 
+          loading="lazy">
+         </iframe>
+         </div>
+         
+         <!-- website bucket List -->
+          <div id="bucket" class="box"> 
+            <h2> bucket  list </h2>
+            <p> select the place you want to visit </p>
+            <ul>
+               <li><input type="checkbox">   Taj mahal,agra  </li>
+               <li> <input type="checkbox">  great wall of china,china </li>
+               <li> <input type="checkbox">  machu picchu,peru</li>
+               <li> <input type="checkbox">  Eiffel Tower,france</li>
+               <li> <input type="checkbox">  blue world ,kanpur </li>
+            </ul>
+          </div>
+
+
+      </div>
+
+    
+</body>
+</html>
